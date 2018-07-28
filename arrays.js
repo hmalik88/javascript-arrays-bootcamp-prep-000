@@ -23,6 +23,7 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   return array;
 }
 function removeElementFromBeginningOfArray (array) {
+<<<<<<< HEAD
   return array.slice(1);
 }
 function destructivelyRemoveElementFromEndOfArray (array) {
@@ -31,4 +32,7 @@ return array;
 }
 function removeElementFromEndOfArray (array) {
   return array.slice(0, array.length - 1);
+=======
+  return array.splice(1);
+>>>>>>> a42910aa213a006d90c4b6b3ef26b3e70be2f629
 }
